@@ -2,11 +2,12 @@
   "name": "elevator-game",
   "version": "0.0.0",
   "description": "A solution for the Elevator Saga game",
-  "main": "index.js",
+  "main": "init.ts",
   "scripts": {
     "build": "webpack",
     "build:watch": "webpack --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "Will Verland <will@ver.land>",
   "license": "ISC",
