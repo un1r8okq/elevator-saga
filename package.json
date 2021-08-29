@@ -1,0 +1,17 @@
+{
+  "name": "elevator-game",
+  "version": "0.0.0",
+  "description": "A solution for the Elevator Saga game",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Verland <will@ver.land>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
