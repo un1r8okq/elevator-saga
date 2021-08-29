@@ -1,6 +1,6 @@
 module.exports = {
   mode: 'development',
-  entry: './src/index.ts',
+  entry: './src/init.ts',
   module: {
     rules: [
       {
@@ -14,6 +14,6 @@ module.exports = {
     extensions: ['.ts'],
   },
   output: {
-    filename: 'index.js',
+    filename: 'init.js',
   },
 };
